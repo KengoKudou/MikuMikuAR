@@ -1,0 +1,15 @@
+# conda version
+
+# please this command.
+# conda env create -f=MMAR.yaml
+
+# if an environment with the same name already exists.
+# conda env update -f=MMAR.yaml
+
+# if you want to delete the environment.
+# conda env remove -n MMAR
+
+name: MMAR
+dependencies:
+  - python=3.8
+  - opencv
